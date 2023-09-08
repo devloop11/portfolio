@@ -164,19 +164,36 @@ gulp.task("clean", function () {
   return gulp.src("./dist").pipe(clean({ force: true }));
 });
 
-gulp.task(
-  "default",
-  gulp.series(
-    "clean",
-    gulp.parallel(
-      "fonts",
-      "videos",
-      "styles",
-      "scripts",
-      "optimizeImages",
-      "pug",
+if ((process.env.NODE_ENV = "production")) {
+  gulp.task(
+    "default",
+    gulp.series(
+      gulp.parallel(
+        "fonts",
+        "videos",
+        "styles",
+        "scripts",
+        "optimizeImages",
+        "pug",
+      ),
+      "inline-svg",
     ),
-    "inline-svg",
-    "watch",
-  ),
-);
+  );
+} else {
+  gulp.task(
+    "default",
+    gulp.series(
+      "clean",
+      gulp.parallel(
+        "fonts",
+        "videos",
+        "styles",
+        "scripts",
+        "optimizeImages",
+        "pug",
+      ),
+      "inline-svg",
+      "watch",
+    ),
+  );
+}
