@@ -1,0 +1,147 @@
+.swiper-container {
+  overflow: hidden;
+  position: absolute;
+  right: -100%;
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide {
+  display: flex;
+  width: 840px;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+  background: transparent;
+  transition: all 0.7s;
+  opacity: 0.5;
+
+  .home-button {
+    opacity: 0;
+    position: absolute;
+    top: 13%;
+    left: 0;
+  }
+  &__content {
+    width: 100%;
+    height: 520px;
+    background-color: black;
+    border-radius: 20px !important;
+    iframe {
+      width: 100%;
+      border-radius: 20px;
+      height: 100%;
+    }
+    video {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+  img {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  &__text {
+    max-width: 830px;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    color: #344054;
+  }
+  &__contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    max-width: 400px;
+    height: 100%;
+    margin: 0 auto;
+    &__text {
+      margin: 0;
+      color:#fff;
+      font-weight: 500;
+      font-size: 16px;
+      margin-bottom: 20px;
+      margin-top: 30px;
+    }
+    button{
+      max-width: fit-content;
+      margin-bottom: 45px;
+      align-self: center;
+    }
+    .company__links {
+      .page-link:hover {
+        transition: fill 0.3s;
+        svg {
+          path {
+            fill: #fff;
+          }
+        }
+      }
+      .page-link.disabled {
+        display: none;
+      }
+    }
+  }
+  &__buttons {
+    position: absolute;
+    top: 13%;
+    right: 0;
+    display: flex;
+    opacity: 0;
+    button {
+      cursor: pointer;
+      background: transparent;
+      outline: none;
+      border: none;
+      &.swiper-button-disabled {
+        pointer-events: none;
+        svg {
+          path {
+            fill: #b9c9cc;
+          }
+        }
+      }
+    }
+    button:hover {
+      svg {
+        path {
+          fill: #1570ef;
+        }
+      }
+    }
+  }
+}
+.swiper-button-next,
+.swiper-button-prev {
+  position: absolute;
+}
+.slider__buttomText {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 90%;
+  left: 40%;
+  color: #98a2b3;
+  p {
+    order: 1;
+  }
+  .inline-svg {
+    order: 0;
+    margin-right: 10px;
+  }
+}
+.swiper-slide.swiper-slide-active {
+  opacity: 1;
+  .swiper-slide__buttons {
+    opacity: 1;
+  }
+  .home-button {
+    opacity: 1;
+  }
+}

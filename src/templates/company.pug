@@ -1,0 +1,15 @@
+section.company
+  div.company__container
+    div.company__wrapper
+      div.company__main-info
+        include base/homeButton.pug
+        div.company__logo
+          img.inline-svg(src=sliderData.logo)
+        div.company__text
+          p=sliderData.text
+        button.company__button.button_primary= sliderData.buttonText
+          img.company__button__img.inline-svg(src="./assets/images/index/components/plus.svg")
+      div.company__links
+        each experience in sliderData.experience
+          include base/experienceLinks.pug
+    include slider.pug

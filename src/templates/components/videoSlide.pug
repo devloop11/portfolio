@@ -1,0 +1,15 @@
+div.swiper-slide
+  include ../base/homeButton.pug
+  - const isExternalVideo = slideData.file.startsWith('http') || slideData.file.startsWith('https');
+  div.swiper-slide__content
+    if isExternalVideo
+      iframe(src=slideData.file frameborder="0" allowfullscreen)
+    else
+      video.swiper-slide__video(controls)
+        source(src=slideData.file type="video/mp4")
+  p.swiper-slide__text=slideData.bottomText
+  div.swiper-slide__buttons
+    button.swiper-prev
+      img.inline-svg(src="./assets/images/index/components/chevron-left-circle.svg")
+    button.swiper-next
+      img.inline-svg(src="./assets/images/index/components/chevron-right-circle.svg")

@@ -1,0 +1,33 @@
+.main {
+  height: 101vh;
+  width: 100%;
+}
+
+.transition-element {
+  height: 120vh;
+  width: 100%;
+  background-color: black;
+  position: fixed;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 9;
+  &__content {
+    position: absolute;
+    top: calc(50% - 16px);
+    left: 0;
+    right: 0;
+    color: #fff;
+    font-size: 32px;
+    text-align: center;
+  }
+}
+
+.page-link.disabled {
+  pointer-events: none;
+  svg {
+    path {
+      opacity:0.3;
+    }
+  }
+}

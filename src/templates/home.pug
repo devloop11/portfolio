@@ -1,0 +1,24 @@
+section.main-info
+  div.main-info__container
+    div.main-info__greeting.greeting-wrapper
+      div.greeting-wrapper__heading
+        div.greeting-wrapper__video
+          video.video-overlay(autoplay loop muted)
+            source(src="./assets/videos/ed_avatar_loop@2x-250px_black_bg.mp4" type="video/mp4")
+        h1=indexData.greeting
+          span.accordion-trigger=indexData.greetingToClick
+      div.greeting-wrapper__accordion
+        img.greeting-wrapper__accordion_close-trigger.inline-svg(src='./assets/images/index/components/close-circle.svg')
+        div.greeting-wrapper__accordion-content
+          p.greeting-wrapper__main-info=indexData.greetingInfo
+          div.greeting-wrapper__sub-info
+            p=indexData.greetingInfoSub.text
+            img(src=indexData.greetingInfoSub.image)
+          div.greeting-wrapper__socials
+            each social in indexData.greegingSocials
+              a.greeting-wrapper__social-link(href=social.link)
+                img.greeting-wrapper__social-image(src=social.image alt=social.title)
+    div.main-info__experience
+      each experience in indexData.experience
+        include base/experienceLinks.pug
+    //- lottie-player(autoplay controls loop src="./assets/videos/WMG-lottie.json" style="width: 320px; height:300px")

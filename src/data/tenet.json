@@ -1,0 +1,50 @@
+{
+  "title": "tenet",
+  "text": "At Tenet Healthcare, I played a pivotal role in the evolution of telemedicine by designing an end-to-end native iOS app to facilitate patient-physician interactions. Recognizing the overcrowding issues in emergency rooms, we aimed to provide an efficient way for patients to determine the necessity of in-person ER visits. Using an outcomes-over-output approach, I collaborated closely with a dynamic team of developers, conceptualizing and designing an intuitive user experience that allowed patients to connect seamlessly with healthcare providers. ",
+  "logo": "./assets/images/index/tenet/tenet-logo.svg",
+  "buttonText": "View more",
+  "slides":  [
+    {
+      "type": "image",
+      "file": "assets/images/sliders/cisco/cisco_fy23_accomplishments.jpg",
+      "alt": "Slide 1",
+      "bottomText": "This showcase highlights our roadmap for the Security Design team's strategic development in FY24, meticulously designed to meet our business and organizational goals."
+    },
+    {
+      "type": "video",
+      "file": "https://www.youtube.com/embed/tO01J-M3g0U?si=l98-vFAHYovX7vKQ",
+      "alt": "Slide 2",
+      "bottomText": "I was tasked with streamlining a lengthy document to fit slide formats, transforming the text into bullet points in accordance with Cisco guidelines. Simplified intricate concepts into engaging visuals."
+    },
+    {
+      "type": "image",
+      "file": "assets/images/sliders/cisco/cisco_fy23_accomplishments.jpg",
+      "alt": "Slide 2",
+      "bottomText": "While adhering to Cisco's guidelines, I also had the flexibility to design custom graphics that aligned with the visions of C-suite leadership without veering too far off course."
+    },
+    {
+      "type": "image",
+      "file": "assets/images/sliders/cisco/cisco_fy23_accomplishments.jpg",
+      "alt": "Slide 2",
+      "bottomText": "I was tasked with streamlining a lengthy document to fit slide formats, transforming the text into bullet points in accordance with Cisco guidelines. Simplified intricate concepts into engaging visuals."
+    },
+    {
+      "type": "video",
+      "file": "./assets/videos/ed_avatar_loop@2x-250px_black_bg.mp4",
+      "alt": "Slide 2",
+      "bottomText": "I was tasked with streamlining a lengthy document to fit slide formats, transforming the text into bullet points in accordance with Cisco guidelines. Simplified intricate concepts into engaging visuals."
+    },
+    {
+      "type": "image",
+      "file": "assets/images/sliders/cisco/cisco_fy23_accomplishments.jpg",
+      "alt": "Slide 2",
+      "bottomText": "I was tasked with streamlining a lengthy document to fit slide formats, transforming the text into bullet points in accordance with Cisco guidelines. Simplified intricate concepts into engaging visuals."
+    },
+    {
+      "type": "contact",
+      "text": "I truly enjoyed my time at WMG, surrounded by a high caliber of designers and research gurus. The team was fantastic and fun to work with. Interested in this or other projects I've been a part of? I'd be happy to chat.",
+      "buttonText": "Contact me",
+      "bottomText": "I was tasked with streamlining a lengthy document to fit slide formats, transforming the text into bullet points in accordance with Cisco guidelines. Simplified intricate concepts into engaging visuals."
+    }
+  ]
+}

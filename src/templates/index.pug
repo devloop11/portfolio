@@ -1,0 +1,20 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Ed's Portfolio
+    link(rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css")
+    link(rel="stylesheet", href="css/styles.min.css")
+    script(src="https://unpkg.com/@barba/core")
+    script(src="https://unpkg.com/gsap@latest/dist/gsap.min.js")
+    script(src="https://unpkg.com/@lottiefiles/lottie-player@0.4.0/dist/lottie-player.js")
+    script(src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js")
+  body(data-barba="wrapper")
+    - const namespace = indexData? 'home' : sliderData.title
+    main.main(data-barba="container" data-barba-namespace=namespace)
+      if indexData
+        include home.pug
+      else if sliderData
+        include company.pug
+    script(src="./js/main.min.js")

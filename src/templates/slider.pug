@@ -1,0 +1,12 @@
+div.swiper-container 
+  div.swiper-wrapper
+    each slideData in sliderData.slides
+      if slideData.type=='image'
+        include components/imageSlide.pug
+      if slideData.type=='video'
+        include components/videoSlide.pug
+      if slideData.type=='contact'
+        include components/contactSlide.pug
+  div.slider__buttomText
+    p='Press spacebar / arrows'
+    img.inline-svg(src="./assets/images/index/components/keyboard.svg")
