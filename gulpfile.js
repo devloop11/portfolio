@@ -164,7 +164,7 @@ gulp.task("clean", function () {
   return gulp.src("./dist").pipe(clean({ force: true }));
 });
 
-if ((process.env.NODE_ENV = "production")) {
+if (process.env.NODE_ENV === "production") {
   gulp.task(
     "default",
     gulp.series(
