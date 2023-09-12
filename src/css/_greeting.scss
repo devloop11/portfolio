@@ -19,18 +19,18 @@
   }
   &__experience {
     display: flex;
-    .page-link{
+    .page-link {
       margin: 0px 25px;
-    svg {
-      path {
-        transition: fill 0.5s ease;
+      svg {
+        path {
+          transition: fill 0.5s ease;
+        }
       }
-    }
-    svg:hover {
-      path {
-        fill: #f2f4f7;
+      svg:hover {
+        path {
+          fill: #f2f4f7;
+        }
       }
-    }
     }
   }
   .greeting-wrapper {
@@ -38,36 +38,69 @@
       width: 100%;
       display: flex;
       align-items: center;
+    }
+    &__text {
+      display: flex;
+      flex-direction: column;
       h1 {
         text-align: center;
         font-size: 72px;
         font-weight: 600;
         line-height: 90px;
         color: #fcfcfd;
-        position: relative;
-        top:-10px;
       }
-      span {
-        position: absolute;
-        right: 110px;
-        top: 95%;
-        right: 0;
+      a {
+        padding-bottom: 5px;
+        align-self: flex-end;
+        text-decoration: none;
+        cursor: pointer;
+        width: fit-content;
+        display: block;
+        outline: none;
         font-size: 16px;
         color: #2e90fa;
-        text-decoration: underline;
-        line-height: 0;
-        cursor: pointer;
+        font-size: 18px;
+        position: relative;
+        overflow: hidden;
+        white-space: nowrap;
+        &::after {
+          content: "";
+          position: absolute;
+          width: 100%;
+          height: 1px;
+          background: currentColor;
+          top: 100%;
+          left: 0;
+          pointer-events: none;
+          color: #2e90fa;
+        }
+        .link__graphic {
+          top: 2px;
+          stroke-width: 6px;
+          transition: transform 0.8s;
+          transition-timing-function: cubic-bezier(0, 0.25, 0.5, 1);
+          position: absolute;
+          left: 0;
+          pointer-events: none;
+          fill: none;
+          stroke: #2e90fa;
+        }
+        &:hover {
+          .link__graphic {
+            transform: translate3d(-66.6%, 0, 0);
+          }
+        }
+      }
+    }
+    &__video {
+      .video-overlay {
+        width: 140px;
+        height: 140px;
+        margin-right: 20px;
       }
     }
     &__main-info {
       margin-bottom: 60px;
-    }
-    &__video{
-      .video-overlay{
-        width: 130px;
-        height: 130px;
-        margin-right: 20px;
-      }
     }
     &__accordion {
       z-index: -1;
@@ -84,6 +117,7 @@
           fill: #454b4c;
           transition: fill 0.3s linear;
         }
+        opacity: 0;
         position: absolute;
         cursor: pointer;
         top: -50%;
@@ -116,6 +150,16 @@
     &__social-link {
       transform: scale(0);
       margin-right: 50px;
+      svg {
+        path {
+          transition: fill 0.5s ease;
+        }
+      }
+      svg:hover {
+        path {
+          fill: #f2f4f7;
+        }
+      }
     }
   }
 }

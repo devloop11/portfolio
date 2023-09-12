@@ -1,7 +1,7 @@
 export default {
-  "*.{js,jsx,ts,tsx,css,scss,md}": [
+  "*.{js,jsx,ts,tsx}": [
     "eslint --fix",
-    "prettier --write --ignore-unknown",
-    "git add",
   ],
+  "*.{css,scss,md}": ["prettier --write --ignore-unknown",
+    "git add",]
 };

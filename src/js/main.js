@@ -1,3 +1,5 @@
+import ButtonCtrl from './customButton.js';
+
 function registerGsapEffects() {
     gsap.registerEffect({
         name: "fadeIn",
@@ -50,7 +52,7 @@ function sliderHandler() {
         slidesPerView: 'auto',
         direction: 'horizontal',
         spaceBetween: 20,
-        speed: 900,
+        speed: 1000,
         height: 800,
         centeredSlides: true,
         keyboard: {
@@ -65,15 +67,16 @@ function sliderHandler() {
     const carouselContainer = document.querySelector('.swiper-container');
     showCarouselButton.addEventListener('click', showCarousel);
     function showCarousel() {
-        const t1 = gsap.timeline()
-        t1.to('.company__wrapper', { x: '-400%', opacity: 0, duration: 1 })
+        const t1 = gsap.timeline({ onComplete: () => document.querySelector('.company__button').remove() })
+        t1.to('.company__wrapper', { x: '-400%', opacity: 0, duration: 2, ease: "power4.inOut" })
         t1.to(carouselContainer, {
             right: '0',
-            duration: 1,
+            duration: 2,
+            ease: "power4.inOut"
         }, 0);
-        t1.from('.swiper-slide.swiper-slide-active .swiper-slide__buttons', { y: '-400%', })
-        t1.fromTo('.swiper-slide.swiper-slide-active .home-button', { y: '-400%', }, { y: '0%', opacity: 1 }, 1)
-        t1.from('.slider__buttomText', { y: '100%', opacity: 0 }, 1)
+        t1.from('.swiper-slide.swiper-slide-active .swiper-slide__buttons', { y: '-400%', }, 1.5)
+        t1.fromTo('.swiper-slide.swiper-slide-active .home-button', { y: '-400%', }, { y: '0%', opacity: 1 }, 1.5)
+        t1.from('.slider__buttomText', { y: '100%', opacity: 0 }, 1.5)
     }
 }
 
@@ -87,7 +90,8 @@ function accordionHandler() {
     const accordionLinks = document.querySelectorAll('.greeting-wrapper__social-link');
     const bookImage = document.querySelector('.greeting-wrapper__sub-info img');
 
-    function onAccordionCLick() {
+    function onAccordionClick(e) {
+        e.preventDefault()
         if (isAccordionOpen) {
             gsap.effects.fadeOut(accordionCloseTrigger, { delay: 0 })
             gsap.effects.fadeOut(accordionContent)
@@ -115,62 +119,89 @@ function accordionHandler() {
         isAccordionOpen = !isAccordionOpen;
     }
 
-    accordionOpenTrigger.addEventListener('click', onAccordionCLick);
-    accordionCloseTrigger.addEventListener('click', onAccordionCLick);
+    accordionOpenTrigger.addEventListener('click', onAccordionClick);
+    accordionCloseTrigger.addEventListener('click', onAccordionClick);
 }
 
-function revriteGsapAnimation() {
-    const experienceLinks = document.querySelectorAll('.company__links .page-link');
-    experienceLinks.forEach(link => {
-        link.addEventListener('mouseenter', () => {
-            gsap.to(link, { scale: 1.05, duration: 0.3 });
 
-        })
-        link.addEventListener('mouseleave', () => {
-            gsap.to(link, { scale: 1, duration: 0.3 });
-        });
-    });
-}
-
-function mainPageTransitions(timeline = gsap.timeline(), offset = 0) {
+function mainPageTransitions(timeline = gsap.timeline(), delay) {
+    const outerTimeline = gsap.timeline({ delay });
+    timeline.from('.main-info__container', {
+        duration: 3,
+        opacity: '0',
+        ease: "power4.out",
+    })
+    timeline.from('.greeting-wrapper__video', {
+        duration: 3,
+        x: "-200%",
+        opacity: '0',
+        ease: "power4.out",
+    }, 0)
     timeline.from('.main-info__greeting h1', {
-        duration: 1.5,
+        duration: 3,
         x: "100%",
         opacity: '0',
-        ease: "Expo.easeOut",
-    }, offset)
-    timeline.from('.main-info__greeting span', {
-        duration: 1.5,
+        ease: "power4.out",
+    }, 0)
+    timeline.from('.main-info__greeting a', {
+        duration: 3,
         transform: 'translateX(-400%)',
         opacity: '0',
         delay: 0.3,
-        ease: "Expo.easeOut",
-    }, offset)
-    timeline.from('.main-info__link svg', {
-        duration: 2,
+        ease: "power4.out",
+        clearProps: true,
+    }, 0)
+    timeline.from('.main-info__experience .page-link', {
+        duration: 1,
+        stagger: 0.1,
         transform: "scale(0)",
-        ease: "Expo.easeOut",
-    }, offset)
+        opacity: 0,
+        ease: "power4.out",
+        clearProps: true,
+    }, 0)
+    outerTimeline.add(timeline);
 }
 
-function sliderPageTransitions(timeline = gsap.timeline(), offset = 0) {
-    const sliderPageLinks = document.querySelectorAll('a.page-link')
+function sliderPageTransitions(timeline = gsap.timeline(), delay) {
+    const outerTimeline = gsap.timeline({ delay });
+    const sliderPageLinks = document.querySelectorAll('.company__links .page-link')
     timeline.from('.company__text', {
-        duration: 1,
+        duration: 2.5,
         opacity: 0,
         x: '-100%',
-    }, offset)
+        ease: "power4.out"
+    }, 0)
     timeline.from('.company__button', {
-        duration: 1,
+        duration: 2.5,
+        x: '120%',
         opacity: 0,
-        x: '200%',
-    }, offset)
+        ease: "power4.out",
+        clearProps: true
+    }, 0)
     timeline.from(sliderPageLinks, {
-        duration: 0.7,
+        duration: 2.5,
         y: "150%",
         opacity: 0,
-        stagger: 0.1
-    }, offset)
+        ease: "power4.out",
+        stagger: 0.2,
+        clearProps: true
+    }, 0)
+    timeline.from('.company__main-info .home-button svg', {
+        duration: 2.5,
+        y: '-100%',
+        opacity: 0,
+        ease: "power4.out",
+        clearProps: true
+    }, 0)
+    sliderPageLinks.forEach(link => {
+        link.addEventListener('mouseenter', () => {
+            gsap.to(link, { transform: 'scale(1.05)', duration: 0.3 })
+        })
+        link.addEventListener('mouseleave', () => {
+            gsap.to(link, { transform: 'scale(1)', duration: 0.3 })
+        })
+    })
+    outerTimeline.add(timeline)
 }
 
 function transitionElBetweenPages() {
@@ -191,41 +222,74 @@ function transitionElBetweenPages() {
     return blackScreen;
 }
 
-function pageOut(trEl, timeline, data) {
-    timeline.fromTo(trEl, { borderRadius: "50%", }, {
-        y: '-95%',
-        borderRadius: "0%",
-        duration: 1,
-        ease: 'power4.inOut',
+function pageOut(trEl, timeline, data, delay) {
+    const outerTimeline = gsap.timeline({ delay });
+    outerTimeline.add(timeline);
+    if (!isIndexOrSlider(data.current.container)) {
+        gsap.to(data.current.container, {
+            y: '-30%',
+            opacity: '0',
+            duration: 1.5,
+            ease: 'expo.in',
+        });
+    }
+    else {
+        gsap.to(data.current.container.querySelector('.main-info__container'), {
+            y: '-40%',
+            opacity: '0',
+            duration: 1.5,
+            ease: 'expo.in',
+        });
+    }
+    timeline.fromTo('.transition-element', { borderRadius: "100% 100% 0 0", }, {
+        y: '-100%',
+        borderRadius: "0 0 0 0",
+        duration: 1.5,
+        ease: "expo.in",
     });
     timeline.from('.transition-element__content', {
         opacity: '0',
         duration: 1,
-        ease: 'power1.in',
-    }, 0);
+        ease: "expo.in",
+    }, 0.5);
 }
 
-function pageIn(trEl, timeline, data) {
-    const outerTimeline = gsap.timeline({ delay: 1.1 });
+function pageIn(trEl, timeline, data, delay) {
+    console.log(data.next.container.querySelector('.company__wrapper'))
+    const outerTimeline = gsap.timeline({ delay });
     outerTimeline.add(timeline);
-
-    if (isIndexOrSlider(data.next.container)) {
-        timeline.call(mainPageTransitions, [timeline, 0.3])
-    }
-    else {
-        timeline.call(sliderPageTransitions, [timeline, 0.3])
-    }
+    const nextPageTransition = isIndexOrSlider(data.next.container) ? mainPageTransitions : sliderPageTransitions
     timeline.to('.transition-element__content', {
         opacity: '0',
-        duration: 1,
-        ease: 'power1.out',
+        duration: 1.5,
+        ease: "power4.out",
     });
-    timeline.fromTo('.transition-element', { borderRadius: "0%", }, {
+    timeline.fromTo('.transition-element', { borderRadius: "0% 0% 10% 10% " }, {
         y: '-200%',
-        borderRadius: "40%",
-        duration: 1,
-        ease: 'power4.inOut',
-    }, 0);
+        borderRadius: "0% 0% 100% 100%",
+        duration: 2,
+        ease: "expo.out",
+    }, 1);
+    if (!isIndexOrSlider(data.next.container)) {
+        gsap.from(data.next.container, {
+            y: '100%',
+            opacity: '0',
+            duration: 2,
+            ease: 'expo.out',
+            clearProps: true,
+            delay: 3
+        })
+    }
+    else {
+        gsap.from(data.next.container.querySelector('.main-info__container'), {
+            y: '100%',
+            duration: 2,
+            ease: 'expo.out',
+            clearProps: true,
+            delay: 3,
+        });
+    }
+    timeline.call(nextPageTransition, [undefined, 0], 1)
 }
 
 barba.init({
@@ -241,16 +305,15 @@ barba.init({
                         done()
                     }
                 })
-                pageOut(pageTrEl, t1)
+                pageOut(pageTrEl, t1, data, 0)
             },
             async enter(data) {
                 window.scrollTo(0, 0);
                 const t1 = gsap.timeline({
-                    onComplete: () => {
-                        document.querySelector('.transition-element').remove()
-                    }
+                    onComplete: () => { document.querySelector('.transition-element').remove(); customButtonHandler() }
                 })
-                pageIn(document.querySelector('.transition-element'), t1, data)
+                pageIn(document.querySelector('.transition-element'), t1, data, 2)
+
             },
             once(data) {
                 if (isIndexOrSlider(data.next.container)) {
@@ -259,13 +322,23 @@ barba.init({
                     return;
                 }
                 else {
-                    revriteGsapAnimation()
+                    customButtonHandler()
+                    disableLinks()
+                    sliderHandler()
                     sliderPageTransitions()
                 }
             }
         },
     ],
 });
+
+
+function customButtonHandler() {
+    let currentPage = `${window.location.pathname}`;
+    if (currentPage != '/') {
+        new ButtonCtrl(document.querySelector('.company__button'));
+    }
+}
 
 barba.hooks.after((data) => {
     if (isIndexOrSlider(data.next.container)) {
@@ -275,7 +348,6 @@ barba.hooks.after((data) => {
     else {
         disableLinks()
         sliderHandler()
-        revriteGsapAnimation()
     }
 });
 document.addEventListener('DOMContentLoaded', () => {

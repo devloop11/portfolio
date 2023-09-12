@@ -5,8 +5,11 @@ section.main-info
         div.greeting-wrapper__video
           video.video-overlay(autoplay loop muted)
             source(src="./assets/videos/ed_avatar_loop@2x-250px_black_bg.mp4" type="video/mp4")
-        h1=indexData.greeting
-          span.accordion-trigger=indexData.greetingToClick
+        div.greeting-wrapper__text
+          h1=indexData.greeting
+          a.accordion-trigger
+            span=indexData.greetingToClick
+            include ../assets/images/index/components/underline.svg
       div.greeting-wrapper__accordion
         img.greeting-wrapper__accordion_close-trigger.inline-svg(src='./assets/images/index/components/close-circle.svg')
         div.greeting-wrapper__accordion-content
@@ -17,8 +20,10 @@ section.main-info
           div.greeting-wrapper__socials
             each social in indexData.greegingSocials
               a.greeting-wrapper__social-link(href=social.link)
-                img.greeting-wrapper__social-image(src=social.image alt=social.title)
+                img.greeting-wrapper__social-image.inline-svg(src=social.image alt=social.title)
     div.main-info__experience
       each experience in indexData.experience
         include base/experienceLinks.pug
     //- lottie-player(autoplay controls loop src="./assets/videos/WMG-lottie.json" style="width: 320px; height:300px")
+
+    

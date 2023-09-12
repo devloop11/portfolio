@@ -1,5 +1,4 @@
 import gulp from "gulp";
-import babel from "gulp-babel";
 import gulpSass from "gulp-sass";
 import * as defaultSass from "sass";
 import autoprefixer from "gulp-autoprefixer";
@@ -7,7 +6,6 @@ import cleanCSS from "gulp-clean-css";
 import concat from "gulp-concat";
 import rename from "gulp-rename";
 import imagemin, { mozjpeg, optipng, svgo } from "gulp-imagemin";
-import uglify from "gulp-uglify";
 import pug from "gulp-pug";
 import data from "gulp-data";
 import clean from "gulp-clean";
@@ -16,8 +14,10 @@ import fs from "fs";
 import path from "path";
 import browserSync from "browser-sync";
 import glob from "glob";
+import webpack from "webpack"
+import webPackCfg from "./webpack.config.js";
 import * as cheerio from "cheerio";
-
+import webpackStream from "webpack-stream"
 const bs = browserSync.create();
 const sass = gulpSass(defaultSass);
 
@@ -130,14 +130,11 @@ gulp.task("videos", () => {
     .pipe(gulp.dest("dist/assets/videos"));
 });
 
-gulp.task("scripts", function () {
+gulp.task('scripts', function () {
   return gulp
-    .src("src/js/*.js")
-    .pipe(babel())
-    .pipe(concat("all-sripts.js"))
-    .pipe(uglify())
-    .pipe(rename("main.min.js"))
-    .pipe(gulp.dest("dist/js"))
+    .src('src/js/main.js')
+    .pipe(webpackStream(webPackCfg, webpack))
+    .pipe(gulp.dest('dist/js'))
     .pipe(bs.stream());
 });
 

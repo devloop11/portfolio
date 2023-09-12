@@ -30,28 +30,3 @@ h6 {
   margin: 0;
   padding: 0;
 }
-
-.button_primary {
-  padding: 10px 16px;
-  border-radius: 100px;
-  background: #1570ef;
-  color: #ffffff;
-  border: none;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 20px;
-}
-
-.close-button {
-  cursor: pointer;
-  path {
-    transition: all 0.2s;
-    fill: #747e7f;
-  }
-}
-.close-button:hover {
-  path {
-    fill: #1570ef;
-  }
-}

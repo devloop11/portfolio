@@ -38,25 +38,5 @@
   &__links {
     display: flex;
     justify-content: space-between;
-    .page-link {
-      transition: scale 0.2s;
-      margin: 10px;
-      transform: scale(1);
-    }
-    .page-link:hover {
-      transform: scale(1.05);
-    }
-  }
-  &__button {
-    cursor: pointer;
-    position: relative;
-    padding-left: 34px;
-    &__img {
-      position: absolute;
-      width: 20px;
-      height: 20px;
-      left: 10px;
-      top: calc(50% - 10px);
-    }
   }
 }
