@@ -1,50 +1,114 @@
 {
   "title": "tenet",
   "text": "At Tenet Healthcare, I played a pivotal role in the evolution of telemedicine by designing an end-to-end native iOS app to facilitate patient-physician interactions. Recognizing the overcrowding issues in emergency rooms, we aimed to provide an efficient way for patients to determine the necessity of in-person ER visits. Using an outcomes-over-output approach, I collaborated closely with a dynamic team of developers, conceptualizing and designing an intuitive user experience that allowed patients to connect seamlessly with healthcare providers. ",
-  "logo": "./assets/images/index/tenet/tenet-logo.svg",
+  "logo": "./assets/images/tenet/tenet-logo.svg",
   "buttonText": "View more",
-  "slides":  [
+  "slides": [
     {
       "type": "image",
-      "file": "assets/images/sliders/cisco/cisco_fy23_accomplishments.jpg",
-      "alt": "Slide 1",
-      "bottomText": "This showcase highlights our roadmap for the Security Design team's strategic development in FY24, meticulously designed to meet our business and organizational goals."
-    },
-    {
-      "type": "video",
-      "file": "https://www.youtube.com/embed/tO01J-M3g0U?si=l98-vFAHYovX7vKQ",
-      "alt": "Slide 2",
-      "bottomText": "I was tasked with streamlining a lengthy document to fit slide formats, transforming the text into bullet points in accordance with Cisco guidelines. Simplified intricate concepts into engaging visuals."
+      "file-1x": "./assets/images/tenet/slider/1@1x.png",
+      "file-2x": "./assets/images/tenet/slider/1@2x.png",
+      "alt": "slide",
+      "bottomText": "At Tenet Healthcare, I led an agile team of designers and engineers in developing a native iOS app for both mobile and iPad platforms. My role encompassed facilitating feedback to stakeholders and establishing a comprehensive design system for growth. This end-to-end project was a response to streamline patient-physician interactions and address the challenges faced by emergency rooms."
     },
     {
       "type": "image",
-      "file": "assets/images/sliders/cisco/cisco_fy23_accomplishments.jpg",
-      "alt": "Slide 2",
-      "bottomText": "While adhering to Cisco's guidelines, I also had the flexibility to design custom graphics that aligned with the visions of C-suite leadership without veering too far off course."
+      "file-1x": "./assets/images/tenet/slider/2@1x.png",
+      "file-2x": "./assets/images/tenet/slider/2@2x.png",
+      "alt": "slide",
+      "bottomText": "I crafted a motion graphics video to elucidate the process and value of the telemedicine app, which played a pivotal role in securing funding and championing its significance to the board of directors."
     },
     {
       "type": "image",
-      "file": "assets/images/sliders/cisco/cisco_fy23_accomplishments.jpg",
-      "alt": "Slide 2",
-      "bottomText": "I was tasked with streamlining a lengthy document to fit slide formats, transforming the text into bullet points in accordance with Cisco guidelines. Simplified intricate concepts into engaging visuals."
-    },
-    {
-      "type": "video",
-      "file": "./assets/videos/ed_avatar_loop@2x-250px_black_bg.mp4",
-      "alt": "Slide 2",
-      "bottomText": "I was tasked with streamlining a lengthy document to fit slide formats, transforming the text into bullet points in accordance with Cisco guidelines. Simplified intricate concepts into engaging visuals."
+      "file-1x": "./assets/images/tenet/slider/3@1x.png",
+      "file-2x": "./assets/images/tenet/slider/3@2x.png",
+      "alt": "slide",
+      "bottomText": "Insights from the pilot at The Hospitals of Providence in El Paso, Texas, informed our main persona. We zeroed in on Hispanic individuals aged 45-60, primarily engaged in blue-collar jobs. Emphasizing our commitment, we strictly adhere to HIPAA regulations to maintain data confidentiality. This initiative was born out of the need to address the prevalent overcrowding in emergency rooms."
     },
     {
       "type": "image",
-      "file": "assets/images/sliders/cisco/cisco_fy23_accomplishments.jpg",
-      "alt": "Slide 2",
-      "bottomText": "I was tasked with streamlining a lengthy document to fit slide formats, transforming the text into bullet points in accordance with Cisco guidelines. Simplified intricate concepts into engaging visuals."
+      "file-1x": "./assets/images/tenet/slider/4@1x.png",
+      "file-2x": "./assets/images/tenet/slider/4@2x.png",
+      "alt": "slide",
+      "bottomText": "Anticipating potential engagement challenges with this demographic in workshops, we strategically crafted an incentivization plan. This user-centric approach, emphasizing outcomes over outputs, boosted participation and garnered authentic and in-depth feedback. Such insights became pivotal in shaping a more responsive and tailored app development process."
+    },
+    {
+      "type": "image",
+      "file-1x": "./assets/images/tenet/slider/5@1x.png",
+      "file-2x": "./assets/images/tenet/slider/5@2x.png",
+      "alt": "slide",
+      "bottomText": "We hosted some user feedback workshops to ensure our app hits the mark. This allowed us to show our early designs to potential users and hear what they think. We used focus groups, surveys, and interviews to get useful feedback."
+    },
+    {
+      "type": "image",
+      "file-1x": "./assets/images/tenet/slider/6@1x.png",
+      "file-2x": "./assets/images/tenet/slider/6@2x.png",
+      "alt": "slide",
+      "bottomText": "The feedback from these sessions was invaluable. We uncovered usability issues we hadn't considered, discovered features that our users desperately wanted, and gained a better understanding of user navigation patterns. This user-centered feedback was integrated into our design iterations, allowing us to make data-informed decisions rather than assumptions."
+    },
+    {
+      "type": "image",
+      "file-1x": "./assets/images/tenet/slider/7@1x.png",
+      "file-2x": "./assets/images/tenet/slider/7@2x.png",
+      "alt": "slide",
+      "bottomText": "On top of that, the workshops were a great chance for our whole team to get on the same page about what we're aiming for and what our users really need. It helped our developers fine-tune the technical stuff to make sure it lines up with what our users want."
+    },
+    {
+      "type": "image",
+      "file-1x": "./assets/images/tenet/slider/8@1x.png",
+      "file-2x": "./assets/images/tenet/slider/8@2x.png",
+      "alt": "slide",
+      "bottomText": "By starting with low-fidelity prototyping and focusing on usability from the get-go, we were able to create an app that's not just functional, but also a breeze for people to use. They were quick to make and easy to change, letting us test a lot of ideas without sinking a lot of time or resources."
+    },
+    {
+      "type": "image",
+      "file-1x": "./assets/images/tenet/slider/9@1x.png",
+      "file-2x": "./assets/images/tenet/slider/9@2x.png",
+      "alt": "slide",
+      "bottomText": "These early prototypes were easy to tweak. Based on the feedback, we could make real-time changes and immediately see how they affected the user experience. It was a super-efficient way to make our app better, faster."
+    },
+    {
+      "type": "image",
+      "file-1x": "./assets/images/tenet/slider/10@1x.png",
+      "file-2x": "./assets/images/tenet/slider/10@2x.png",
+      "alt": "slide",
+      "bottomText": "After nailing down our initial ideas with low-fidelity prototypes, we shifted gears to high-fidelity prototyping. Now we were working with designs that looked and felt a lot like the final product. This allowed us to dive deep into the finer details—like button placement, color schemes, and transitions—to make sure the user experience was top-notch."
+    },
+    {
+      "type": "image",
+      "file-1x": "./assets/images/tenet/slider/11@1x.png",
+      "file-2x": "./assets/images/tenet/slider/11@2x.png",
+      "alt": "slide",
+      "bottomText": "With our high-fidelity prototypes in hand, we took an exciting step: launching at local community health fairs. This wasn't just any test; it was a live demo in front of the very people we hoped would use our app. It gave us a chance to see how the app would perform in real-world scenarios and get instant feedback."
+    },
+    {
+      "type": "image",
+      "file-1x": "./assets/images/tenet/slider/12@1x.png",
+      "file-2x": "./assets/images/tenet/slider/12@2x.png",
+      "alt": "slide",
+      "bottomText": "By bringing our high-fidelity prototype to health fairs, we also made sure our app wasn't just built on assumptions, but aligned with actual community needs. We had the chance to chat with people, answer their questions, and even address any concerns on the spot."
+    },
+    {
+      "type": "image",
+      "file-1x": "./assets/images/tenet/slider/14@1x.png",
+      "file-2x": "./assets/images/tenet/slider/14@2x.png",
+      "alt": "slide",
+      "bottomText": "In addition to the app, I created up some brochures and pamphlets. These were more than just handouts; they were part of our strategy to educate and engage potential users. They came in super handy at community health fairs, offering folks a quick info grab they could take home, and helped to boost the project's reach and impact."
+    },
+    {
+      "type": "image",
+      "file-1x": "./assets/images/tenet/slider/15@1x.png",
+      "file-2x": "./assets/images/tenet/slider/15@2x.png",
+      "alt": "slide",
+      "bottomText": "For future health fairs, we've created digital ads to boost registration. These ads are more than just pretty; they're built to get folks excited and make sign-up easy. It's all part of our plan to make our next health fairs even bigger hits in the community."
     },
     {
       "type": "contact",
-      "text": "I truly enjoyed my time at WMG, surrounded by a high caliber of designers and research gurus. The team was fantastic and fun to work with. Interested in this or other projects I've been a part of? I'd be happy to chat.",
+      "bgImage": "./assets/images/components/end_slide_for_all_casestudies.png",
+      "text": "Managing the complete journey of Tenet's project while maintaining an outcome-centric approach has been incredibly fulfilling. If you're curious for more details or have any questions, don't hesitate to reach out!",
       "buttonText": "Contact me",
-      "bottomText": "I was tasked with streamlining a lengthy document to fit slide formats, transforming the text into bullet points in accordance with Cisco guidelines. Simplified intricate concepts into engaging visuals."
+      "mailTo": "hello@edwardguillen.com",
+      "bottomText": "The next steps include launching an Android version, integrating in-app payments and insurance functionalities, and focusing on key demographics within communities for broader accessibility."
     }
   ]
 }

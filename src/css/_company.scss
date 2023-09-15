@@ -25,6 +25,14 @@
       margin-left: auto;
     }
   }
+  &__logo {
+    max-width: 210px;
+    max-height: 90px;
+    // &-lottie {
+    //   position: relative;
+    //   left: -25px;
+    // }
+  }
   &__main-info {
     max-width: 570px;
     margin: 0 auto;
@@ -38,5 +46,6 @@
   &__links {
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
 }

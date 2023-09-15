@@ -1,49 +1,85 @@
 {
   "title": "cisco",
   "text": "Collaborating closely with C-suite leadership, I transformed complex ideas into engaging visuals. Maintained brand uniformity across various projects, devised innovative design concepts, juggling multiple tasks. Additionally, I conducted deep research to guide design decisions and mentored team members as needed.",
-  "logo": "./assets/images/index/cisco/cisco-logo.svg",
+  "logo": "./assets/images/cisco/Cisco_lottie_logo.json",
   "buttonText": "View more",
   "slides": [
     {
       "type": "image",
-      "file": "assets/images/sliders/cisco/cisco_fy23_accomplishments.jpg",
-      "alt": "Slide 1",
+      "file-1x": "./assets/images/cisco/slider/1@1x.png",
+      "file-2x": "./assets/images/cisco/slider/1@2x.png",
+      "alt": "slide",
       "bottomText": "This showcase highlights our roadmap for the Security Design team's strategic development in FY24, meticulously designed to meet our business and organizational goals."
     },
     {
-      "type": "video",
-      "file": "https://www.youtube.com/embed/tO01J-M3g0U?si=l98-vFAHYovX7vKQ",
-      "alt": "Slide 2",
+      "type": "image",
+      "file-1x": "./assets/images/cisco/slider/2@1x.png",
+      "file-2x": "./assets/images/cisco/slider/2@2x.png",
+      "alt": "slide",
       "bottomText": "I was tasked with streamlining a lengthy document to fit slide formats, transforming the text into bullet points in accordance with Cisco guidelines. Simplified intricate concepts into engaging visuals."
     },
     {
       "type": "image",
-      "file": "assets/images/sliders/cisco/cisco_fy23_accomplishments.jpg",
-      "alt": "Slide 2",
+      "file-1x": "./assets/images/cisco/slider/3@1x.png",
+      "file-2x": "./assets/images/cisco/slider/3@2x.png",
+      "alt": "slide",
       "bottomText": "While adhering to Cisco's guidelines, I also had the flexibility to design custom graphics that aligned with the visions of C-suite leadership without veering too far off course."
     },
     {
       "type": "image",
-      "file": "assets/images/sliders/cisco/cisco_fy23_accomplishments.jpg",
-      "alt": "Slide 2",
-      "bottomText": "I was tasked with streamlining a lengthy document to fit slide formats, transforming the text into bullet points in accordance with Cisco guidelines. Simplified intricate concepts into engaging visuals."
+      "file-1x": "./assets/images/cisco/slider/4@1x.png",
+      "file-2x": "./assets/images/cisco/slider/4@2x.png",
+      "alt": "slide",
+      "bottomText": "I also specialized in manipulating typography, color palettes, images, and various visual elements to craft designs that effectively communicated a specific message and evoked the desired emotion."
     },
     {
-      "type": "video",
-      "file": "./assets/videos/ed_avatar_loop@2x-250px_black_bg.mp4",
-      "alt": "Slide 2",
+      "type": "image",
+      "file-1x": "./assets/images/cisco/slider/5@1x.png",
+      "file-2x": "./assets/images/cisco/slider/5@2x.png",
+      "alt": "slide",
+      "bottomText": ""
+    },
+    {
+      "type": "image",
+      "file-1x": "./assets/images/cisco/slider/6@1x.png",
+      "file-2x": "./assets/images/cisco/slider/6@2x.png",
+      "alt": "slide",
+      "bottomText": ""
+    },
+    {
+      "type": "image",
+      "file-1x": "./assets/images/cisco/slider/7@1x.png",
+      "file-2x": "./assets/images/cisco/slider/7@2x.png",
+      "alt": "slide",
       "bottomText": "I was tasked with streamlining a lengthy document to fit slide formats, transforming the text into bullet points in accordance with Cisco guidelines. Simplified intricate concepts into engaging visuals."
     },
     {
       "type": "image",
-      "file": "assets/images/sliders/cisco/cisco_fy23_accomplishments.jpg",
-      "alt": "Slide 2",
+      "file-1x": "./assets/images/cisco/slider/8@1x.png",
+      "file-2x": "./assets/images/cisco/slider/8@2x.png",
+      "alt": "slide",
+      "bottomText": "I also designed custom wireframes that clearly depicted roadmap priorities."
+    },
+    {
+      "type": "image",
+      "file-1x": "./assets/images/cisco/slider/9@1x.png",
+      "file-2x": "./assets/images/cisco/slider/9@2x.png",
+      "alt": "slide",
+      "bottomText": "I was tasked with streamlining a lengthy document to fit slide formats, transforming the text into bullet points in accordance with Cisco guidelines. Simplified intricate concepts into engaging visuals."
+    },
+    {
+      "type": "image",
+      "file-1x": "./assets/images/cisco/slider/10@1x.png",
+      "file-2x": "./assets/images/cisco/slider/10@2x.png",
+      "alt": "slide",
       "bottomText": "I was tasked with streamlining a lengthy document to fit slide formats, transforming the text into bullet points in accordance with Cisco guidelines. Simplified intricate concepts into engaging visuals."
     },
     {
       "type": "contact",
-      "text": "I truly enjoyed my time at WMG, surrounded by a high caliber of designers and research gurus. The team was fantastic and fun to work with. Interested in this or other projects I've been a part of? I'd be happy to chat.",
+      "bgImage": "./assets/images/components/end_slide_for_all_casestudies.png",
+      "text": "I really enjoyed collaborating with the c-suite leaders and diving deep into Cisco's plans for the upcoming year. Want to know more about this or other projects I've worked on? I'd be happy to chat.",
       "buttonText": "Contact me",
+      "mailTo": "hello@edwardguillen.com",
       "bottomText": "I was tasked with streamlining a lengthy document to fit slide formats, transforming the text into bullet points in accordance with Cisco guidelines. Simplified intricate concepts into engaging visuals."
     }
   ]

@@ -1,50 +1,114 @@
 {
   "title": "alcolyze",
   "text": "As the founding designer for Alcolyze, I was at the forefront of developing a personal BAC monitoring system targeting alcohol-related issues like drunk driving and underage drinking. Leveraging innovative blockchain technology for data capture and integrating cutting-edge fuel-cell breathalyzer IoT technology, I contributed to creating Alcolyze's robust and versatile platform, setting a new benchmark for prevention programs in this space.",
-  "logo": "./assets/images/index/alcolyze/alcolyze-logo.svg",
+  "logo": "./assets/images/alcolyze/alcolyze-logo.svg",
   "buttonText": "View more",
-  "slides":  [
+  "slides": [
     {
       "type": "image",
-      "file": "assets/images/sliders/cisco/cisco_fy23_accomplishments.jpg",
-      "alt": "Slide 1",
-      "bottomText": "This showcase highlights our roadmap for the Security Design team's strategic development in FY24, meticulously designed to meet our business and organizational goals."
-    },
-    {
-      "type": "video",
-      "file": "https://www.youtube.com/embed/tO01J-M3g0U?si=l98-vFAHYovX7vKQ",
-      "alt": "Slide 2",
-      "bottomText": "I was tasked with streamlining a lengthy document to fit slide formats, transforming the text into bullet points in accordance with Cisco guidelines. Simplified intricate concepts into engaging visuals."
+      "file-1x": "./assets/images/alcolyze/slider/1@1x.png",
+      "file-2x": "./assets/images/alcolyze/slider/1@2x.png",
+      "alt": "slide",
+      "bottomText": "I was the Founding Designer, deeply immersed in every facet of the design process, from conceptualizing native applications for both iOS and Android to molding SaaS interfaces and landing pages. Collaborating closely with founding VC partners, I led the project from inception to its first major milestone."
     },
     {
       "type": "image",
-      "file": "assets/images/sliders/cisco/cisco_fy23_accomplishments.jpg",
-      "alt": "Slide 2",
-      "bottomText": "While adhering to Cisco's guidelines, I also had the flexibility to design custom graphics that aligned with the visions of C-suite leadership without veering too far off course."
+      "file-1x": "./assets/images/alcolyze/slider/2@1x.png",
+      "file-2x": "./assets/images/alcolyze/slider/2@2x.png",
+      "alt": "slide",
+      "bottomText": "The project had a clear challenge: With sensitive offender data and the use of blockchain, we had to ensure top-notch data privacy. Users were concerned about how their data was stored and accessed. Given global worries about data breaches, providing strong security and clear transparency was vital, especially when using IoT devices to collect data."
     },
     {
       "type": "image",
-      "file": "assets/images/sliders/cisco/cisco_fy23_accomplishments.jpg",
-      "alt": "Slide 2",
-      "bottomText": "I was tasked with streamlining a lengthy document to fit slide formats, transforming the text into bullet points in accordance with Cisco guidelines. Simplified intricate concepts into engaging visuals."
-    },
-    {
-      "type": "video",
-      "file": "./assets/videos/ed_avatar_loop@2x-250px_black_bg.mp4",
-      "alt": "Slide 2",
-      "bottomText": "I was tasked with streamlining a lengthy document to fit slide formats, transforming the text into bullet points in accordance with Cisco guidelines. Simplified intricate concepts into engaging visuals."
+      "file-1x": "./assets/images/alcolyze/slider/3@1x.png",
+      "file-2x": "./assets/images/alcolyze/slider/3@2x.png",
+      "alt": "slide",
+      "bottomText": "A series of interviews were undertaken to comprehensively understand our personas. Both offenders and probation officers were engaged to delve into their specific needs, challenges, and motivations concerning the Alcolyze BAC app."
     },
     {
       "type": "image",
-      "file": "assets/images/sliders/cisco/cisco_fy23_accomplishments.jpg",
-      "alt": "Slide 2",
-      "bottomText": "I was tasked with streamlining a lengthy document to fit slide formats, transforming the text into bullet points in accordance with Cisco guidelines. Simplified intricate concepts into engaging visuals."
+      "file-1x": "./assets/images/alcolyze/slider/4@1x.png",
+      "file-2x": "./assets/images/alcolyze/slider/4@2x.png",
+      "alt": "slide",
+      "bottomText": "Following the series of interviews, I dove into crafting detailed site maps and user flows, refining them continuously using a Lean UX approach."
+    },
+    {
+      "type": "image",
+      "file-1x": "./assets/images/alcolyze/slider/5@1x.png",
+      "file-2x": "./assets/images/alcolyze/slider/5@2x.png",
+      "alt": "slide",
+      "bottomText": "I started with simple, low-fidelity mock-ups, improving them using Lean UX. With a focus on results, we made clear site maps and flows, all set for the engineering team."
+    },
+    {
+      "type": "image",
+      "file-1x": "./assets/images/alcolyze/slider/6@1x.png",
+      "file-2x": "./assets/images/alcolyze/slider/6@2x.png",
+      "alt": "slide",
+      "bottomText": "These were the finalized low-fidelity dashboards that allowed probation officers to view BAC tests and initiate random tests when necessary."
+    },
+    {
+      "type": "image",
+      "file-1x": "./assets/images/alcolyze/slider/7@1x.png",
+      "file-2x": "./assets/images/alcolyze/slider/7@2x.png",
+      "alt": "slide",
+      "bottomText": "The data, after being processed through the blockchain, is presented in its final version for streamlined viewing."
+    },
+    {
+      "type": "image",
+      "file-1x": "./assets/images/alcolyze/slider/8@1x.png",
+      "file-2x": "./assets/images/alcolyze/slider/8@2x.png",
+      "alt": "slide",
+      "bottomText": "After processing through the blockchain, reports are integrated into the system. This allows probation officers to access data and pinpoint the geo-location of specific BAC events. Efficient and precise."
+    },
+    {
+      "type": "image",
+      "file-1x": "./assets/images/alcolyze/slider/9@1x.png",
+      "file-2x": "./assets/images/alcolyze/slider/9@2x.png",
+      "alt": "slide",
+      "bottomText": "The Alcolyze Desktop App, designed for Probation Officers, allows for the setup of scheduled events, which can either be triggered randomly or set to a specific schedule. All information is subsequently encapsulated in a smart contract and processed through the blockchain to ensure privacy."
+    },
+    {
+      "type": "image",
+      "file-1x": "./assets/images/alcolyze/slider/10@1x.png",
+      "file-2x": "./assets/images/alcolyze/slider/10@2x.png",
+      "alt": "slide",
+      "bottomText": "After the desktop versions were passed to the engineers, I dived into what promised to be the tougher part of the project. This new phase was informed by a series of interviews with offenders."
+    },
+    {
+      "type": "image",
+      "file-1x": "./assets/images/alcolyze/slider/11@1x.png",
+      "file-2x": "./assets/images/alcolyze/slider/11@2x.png",
+      "alt": "slide",
+      "bottomText": "The finalized low-fidelity dashboard native app is designed for offenders. From this interface, they can obtain an overview of their activities, review results, and initiate a test. Additionally, there's an option to acquire a new IoT device directly within the app."
+    },
+    {
+      "type": "image",
+      "file-1x": "./assets/images/alcolyze/slider/12@1x.png",
+      "file-2x": "./assets/images/alcolyze/slider/12@2x.png",
+      "alt": "slide",
+      "bottomText": "A transition is evident when comparing the app's initial low-fidelity designs to the final high-fidelity iterations."
+    },
+    {
+      "type": "image",
+      "file-1x": "./assets/images/alcolyze/slider/13@1x.png",
+      "file-2x": "./assets/images/alcolyze/slider/13@2x.png",
+      "alt": "slide",
+      "bottomText": "Recognizing that many offenders might be reluctant to take these tests due to potential embarrassment, we introduced an incentive system. When BAC test results were submitted on time and passed, offenders would receive unique rewards, such as gift cards, to encourage timely and compliant behavior."
+    },
+    {
+      "type": "image",
+      "file-1x": "./assets/images/alcolyze/slider/14@1x.png",
+      "file-2x": "./assets/images/alcolyze/slider/14@2x.png",
+      "alt": "slide",
+      "bottomText": "If an offender failed a test, a re-test was scheduled 15 minutes later. Non-compliance led to multiple calls and disciplinary actions. They'd also get alerts to replace the IoT device as its BAC-generating cell wears out over time."
     },
     {
       "type": "contact",
-      "text": "I truly enjoyed my time at WMG, surrounded by a high caliber of designers and research gurus. The team was fantastic and fun to work with. Interested in this or other projects I've been a part of? I'd be happy to chat.",
+      "bgImage": "./assets/images/components/end_slide_for_all_casestudies.png",
+      "text": "Navigating the end-to-end process of the Alcolyze project and focusing on our outcome-based approach was truly rewarding. If you have any questions or want more insights, please feel free to reach out!",
       "buttonText": "Contact me",
-      "bottomText": "I was tasked with streamlining a lengthy document to fit slide formats, transforming the text into bullet points in accordance with Cisco guidelines. Simplified intricate concepts into engaging visuals."
+      "mailTo": "hello@edwardguillen.com",
+      "bottomText": "The Alcolyze system effectively increased user compliance, ensured data privacy through blockchain, reduced non-compliance with swift re-tests, maintained IoT device functionality with timely alerts, and received high praise from both probation officers and offenders for its user-friendly design and transparency."
     }
   ]
 }

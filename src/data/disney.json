@@ -1,50 +1,114 @@
 {
   "title": "disney",
   "text": "At Disney, I was the Product Designer for the \"Disney Sneak Peek\" project, an initiative to revolutionize media content-sharing across studio teams. Over a year, I spearheaded the design of an interactive desktop app that addressed key challenges in content-sharing, utilizing tools like Figma and Adobe Suite. Collaborating closely with cross-functional teams, the goal was to provide a user-centric design that streamlined communication, enhanced user experience and incorporated secure features such as direct links for celebrity home screenings. The outcome was a successful and efficient platform that met the media content-sharing needs of Disney's creative teams.",
-  "logo": "./assets/images/index/disney/disney-logo.svg",
+  "logo": "./assets/images/disney/disney-logo.svg",
   "buttonText": "View more",
-  "slides":  [
+  "slides": [
     {
       "type": "image",
-      "file": "assets/images/sliders/cisco/cisco_fy23_accomplishments.jpg",
-      "alt": "Slide 1",
-      "bottomText": "This showcase highlights our roadmap for the Security Design team's strategic development in FY24, meticulously designed to meet our business and organizational goals."
-    },
-    {
-      "type": "video",
-      "file": "https://www.youtube.com/embed/tO01J-M3g0U?si=l98-vFAHYovX7vKQ",
-      "alt": "Slide 2",
-      "bottomText": "I was tasked with streamlining a lengthy document to fit slide formats, transforming the text into bullet points in accordance with Cisco guidelines. Simplified intricate concepts into engaging visuals."
+      "file-1x": "./assets/images/disney/slider/1@1x.png",
+      "file-2x": "./assets/images/disney/slider/1@2x.png",
+      "alt": "slide",
+      "bottomText": "As the Product Designer for the Disney Sneak Peek app, I led the design from concept to completion using a hybrid Waterfall/Kanban approach. I worked closely with cross-functional teams, conducted user and market research, and made iterative changes based on feedback. My efforts resulted in a user-centric app that met business objectives and revolutionized media content-sharing for Disney's creative teams."
     },
     {
       "type": "image",
-      "file": "assets/images/sliders/cisco/cisco_fy23_accomplishments.jpg",
-      "alt": "Slide 2",
-      "bottomText": "While adhering to Cisco's guidelines, I also had the flexibility to design custom graphics that aligned with the visions of C-suite leadership without veering too far off course."
+      "file-1x": "./assets/images/disney/slider/2@1x.png",
+      "file-2x": "./assets/images/disney/slider/2@2x.png",
+      "alt": "slide",
+      "bottomText": "I focused on studying existing designs and what's popular in the market, since we couldn't do user research. This helped me make smart design choices that fit both our business goals and what users likely want. This approach played a big role in improving how Disney teams share media content."
     },
     {
       "type": "image",
-      "file": "assets/images/sliders/cisco/cisco_fy23_accomplishments.jpg",
-      "alt": "Slide 2",
-      "bottomText": "I was tasked with streamlining a lengthy document to fit slide formats, transforming the text into bullet points in accordance with Cisco guidelines. Simplified intricate concepts into engaging visuals."
-    },
-    {
-      "type": "video",
-      "file": "./assets/videos/ed_avatar_loop@2x-250px_black_bg.mp4",
-      "alt": "Slide 2",
-      "bottomText": "I was tasked with streamlining a lengthy document to fit slide formats, transforming the text into bullet points in accordance with Cisco guidelines. Simplified intricate concepts into engaging visuals."
+      "file-1x": "./assets/images/disney/slider/3@1x.png",
+      "file-2x": "./assets/images/disney/slider/3@2x.png",
+      "alt": "slide",
+      "bottomText": "The team wanted a design that felt both intuitive and familiar to users, echoing popular apps they already knew. By incorporating elements from well-known platforms like iTunes, we made it easy for Disney teams to adapt to our new media-sharing app. This approach was key to the app's success in improving content-sharing."
     },
     {
       "type": "image",
-      "file": "assets/images/sliders/cisco/cisco_fy23_accomplishments.jpg",
-      "alt": "Slide 2",
-      "bottomText": "I was tasked with streamlining a lengthy document to fit slide formats, transforming the text into bullet points in accordance with Cisco guidelines. Simplified intricate concepts into engaging visuals."
+      "file-1x": "./assets/images/disney/slider/4@1x.png",
+      "file-2x": "./assets/images/disney/slider/4@2x.png",
+      "alt": "slide",
+      "bottomText": "I kicked off the project by posing questions to internal users to understand their needs and pain points. Armed with these insights, I began crafting sitemaps and information architecture. This initial groundwork laid the foundation for a user-friendly app that resonated with our target audience."
+    },
+    {
+      "type": "image",
+      "file-1x": "./assets/images/disney/slider/5@1x.png",
+      "file-2x": "./assets/images/disney/slider/5@2x.png",
+      "alt": "slide",
+      "bottomText": "Due to the short-term nature of my contract, speed was of the essence. We had to make quick decisions and rapidly iterate on low-fidelity prototypes. This fast-paced approach allowed us to meet our goals while staying responsive to user needs, setting the stage for a successful, user-friendly app."
+    },
+    {
+      "type": "image",
+      "file-1x": "./assets/images/disney/slider/6@1x.png",
+      "file-2x": "./assets/images/disney/slider/6@2x.png",
+      "alt": "slide",
+      "bottomText": "Thanks to the waterfall-kanban hybrid process we employed, we could swiftly roll out iterations—anything from introducing a dark mode to tweaking UI elements. This agile approach enabled us to adapt quickly, keeping the project on track while continuously aligning with user needs and preferences."
+    },
+    {
+      "type": "image",
+      "file-1x": "./assets/images/disney/slider/7@1x.png",
+      "file-2x": "./assets/images/disney/slider/7@2x.png",
+      "alt": "slide",
+      "bottomText": "On top of that, the workshops were a great chance for our whole team to get on the same page about what we're aiming for and what our users really need. It helped our developers fine-tune the technical stuff to make sure it lines up with what our users want."
+    },
+    {
+      "type": "image",
+      "file-1x": "./assets/images/disney/slider/8@1x.png",
+      "file-2x": "./assets/images/disney/slider/8@2x.png",
+      "alt": "slide",
+      "bottomText": "By starting with low-fidelity prototyping and focusing on usability from the get-go, we were able to create an app that's not just functional, but also a breeze for people to use. They were quick to make and easy to change, letting us test a lot of ideas without sinking a lot of time or resources."
+    },
+    {
+      "type": "image",
+      "file-1x": "./assets/images/disney/slider/9@1x.png",
+      "file-2x": "./assets/images/disney/slider/9@2x.png",
+      "alt": "slide",
+      "bottomText": "I optimized inputs and forms for quick, error-free data entry. Intuitive text fields and dropdowns, aided by tooltips, streamlined user interactions and enhanced usability."
+    },
+    {
+      "type": "image",
+      "file-1x": "./assets/images/disney/slider/10@1x.png",
+      "file-2x": "./assets/images/disney/slider/10@2x.png",
+      "alt": "slide",
+      "bottomText": "The team sought an intuitive design, inspired by familiar platforms like Apple's iTunes, to ensure user-friendly navigation. Our goal was to minimize the learning curve using recognized design elements, making quick adaptation possible for Disney's teams."
+    },
+    {
+      "type": "image",
+      "file-1x": "./assets/images/disney/slider/11@1x.png",
+      "file-2x": "./assets/images/disney/slider/11@2x.png",
+      "alt": "slide",
+      "bottomText": "We implemented a slide-out menu to maintain a clean interface, allowing users to focus primarily on the content. This design choice helped simplify navigation while ensuring that the core content remained the focal point of the user experience."
+    },
+    {
+      "type": "image",
+      "file-1x": "./assets/images/disney/slider/12@1x.png",
+      "file-2x": "./assets/images/disney/slider/12@2x.png",
+      "alt": "slide",
+      "bottomText": "These interfaces featured intuitive controls for play, pause, and volume adjustment, ensuring users could easily interact with audio content. This tailored design approach elevated the overall experience of handling audio clips within the app."
+    },
+    {
+      "type": "image",
+      "file-1x": "./assets/images/disney/slider/13@1x.png",
+      "file-2x": "./assets/images/disney/slider/13@2x.png",
+      "alt": "slide",
+      "bottomText": "I designed a full-screen player with a focus on user engagement and ease of use. Simplified controls and an intuitive layout allowed for an immersive viewing experience, making media playback straightforward and enjoyable."
+    },
+    {
+      "type": "image",
+      "file-1x": "./assets/images/disney/slider/14@1x.png",
+      "file-2x": "./assets/images/disney/slider/14@2x.png",
+      "alt": "slide",
+      "bottomText": "I implemented a smaller player with a dedicated right-hand column for comments, facilitating real-time feedback on media content. This layout made it easy for team members to discuss changes while simultaneously viewing or listening to the media."
     },
     {
       "type": "contact",
-      "text": "I truly enjoyed my time at WMG, surrounded by a high caliber of designers and research gurus. The team was fantastic and fun to work with. Interested in this or other projects I've been a part of? I'd be happy to chat.",
+      "bgImage": "./assets/images/components/end_slide_for_all_casestudies.png",
+      "text": "Navigating through the complexities of the Disney Sneak Peek project while staying focused on user-centric outcomes has been immensely rewarding. If you're intrigued to dive deeper into the project or have any questions, feel free to reach out!",
       "buttonText": "Contact me",
-      "bottomText": "I was tasked with streamlining a lengthy document to fit slide formats, transforming the text into bullet points in accordance with Cisco guidelines. Simplified intricate concepts into engaging visuals."
+      "mailTo": "hello@edwardguillen.com",
+      "bottomText": "Key recommendations would be to invest more time in user research for even more precise insights, and to explore additional iterative designs for further optimization. While the project was successful, having the opportunity to conduct more extensive research could have offered additional avenues for innovation and fine-tuning."
     }
   ]
 }

@@ -1,0 +1,10 @@
+div.no-responsive
+  -const data = indexData || sliderData;
+  div.no-responsive__heading
+    img.no-responsive__img(src=data.noResponsive.image)
+    div.no-responsive__heading__content
+      h3.no-responsive__title=data.noResponsive.title
+      p.no-responsive__subTitle=data.noResponsive.subTitle
+  div.no-responsive__content.no-responsive-content
+    h3.no-responsive-content__title=data.noResponsive.textTitle
+    p.no-responsive-content__text=data.noResponsive.textContent

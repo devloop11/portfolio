@@ -1,0 +1,6 @@
+div.swiper-slide
+  include ../base/sliderButtons.pug
+  div.swiper-slide__content
+    lottie-player.swiper-slide__lottie(autoplay loop controls src=slideData.file)
+  p.swiper-slide__text=slideData.bottomText
+  

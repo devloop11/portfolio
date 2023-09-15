@@ -58,6 +58,7 @@
         display: block;
         outline: none;
         font-size: 16px;
+        font-weight: 600;
         color: #2e90fa;
         font-size: 18px;
         position: relative;
@@ -148,7 +149,8 @@
       align-items: center;
     }
     &__social-link {
-      transform: scale(0);
+      transform: scale(1);
+      opacity: 1;
       margin-right: 50px;
       svg {
         path {
@@ -157,7 +159,7 @@
       }
       svg:hover {
         path {
-          fill: #f2f4f7;
+          fill: #f2f4f7 !important;
         }
       }
     }

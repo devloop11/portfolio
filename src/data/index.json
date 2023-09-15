@@ -4,55 +4,62 @@
   "greetingInfo": "Hello! I'm an experienced Product Designer and Emerging Technology Consultant with over a decade of expertise in transforming B2C, B2B, and startup sectors. In partnership with C-suite leadership, I've led the successful launch of various digital platforms, achieving measurable results and stimulating business growth. As part of agile teams, I blend innovation, organizational culture, and design to produce meaningful outcomes. Additionally, I champion and advocate for exceptional user experiences with an outcome-focused approach.",
   "greetingInfoSub": {
     "text": "I'm writing a book on UX design, coming soon.",
-    "image": "./assets/images/index/book.png"
+    "image": "./assets/images/components/book.png"
   },
-  "greegingSocials": [
+  "greetingSocials": [
     {
       "title": "mail",
-      "link": "https://www.google.com",
-      "image": "./assets/images/index/socials/envelope.svg"
+      "link": "mailto:mail@edwardguillen.com",
+      "image": "./assets/images/socials/envelope.svg"
     },
     {
       "title": "pdf",
-      "link": "https://www.google.com",
-      "image": "./assets/images/index/socials/file-pdf.svg"
+      "link": "https://edwardguillen.com/edward-guillen-resume.pdf",
+      "image": "./assets/images/socials/file-pdf.svg"
     },
     {
       "title": "linkedin",
-      "link": "https://www.google.com",
-      "image": "./assets/images/index/socials/linkedin-in.svg"
+      "link": "https://www.linkedin.com/in/edward-guillen311/",
+      "image": "./assets/images/socials/linkedin-in.svg"
     },
     {
       "title": "dribbble",
-      "link": "https://www.google.com",
-      "image": "./assets/images/index/socials/dribbble.svg"
+      "link": "https://dribbble.com/edwardguillen",
+      "image": "./assets/images/socials/dribbble.svg"
     }
   ],
   "experience": [
     {
       "title": "cisco",
       "link": "cisco",
-      "link-image": "./assets/images/index/cisco/cisco-link.svg"
+      "link-image": "./assets/images/cisco/cisco-link.svg"
     },
     {
-      "title": "warner",
-      "link": "warner",
-      "link-image": "./assets/images/index/warner/warner-link.svg"
+      "title": "wmg",
+      "link": "wmg",
+      "link-image": "./assets/images/wmg/wmg-link.svg"
     },
     {
       "title": "disney",
       "link": "disney",
-      "link-image": "./assets/images/index/disney/disney-link.svg"
+      "link-image": "./assets/images/disney/disney-link.svg"
     },
     {
       "title": "tenet",
       "link": "tenet",
-      "link-image": "./assets/images/index/tenet/tenet-link.svg"
+      "link-image": "./assets/images/tenet/tenet-link.svg"
     },
     {
       "title": "alcolyze",
       "link": "alcolyze",
-      "link-image": "./assets/images/index/alcolyze/alcolyze-link.svg"
+      "link-image": "./assets/images/alcolyze/alcolyze-link.svg"
     }
-  ]
+  ],
+  "noResponsive": {
+    "title": "Hi, im Ed.",
+    "image": "./assets/images/components/Video_from_Iphone.png",
+    "subTitle": "Product Designer",
+    "textTitle": "Sorrrreeee.",
+    "textContent": "Hi there! Just a heads-up: This is only accessible through a desktop. Sorry for any inconvenience, and thanks so much for understanding! 🙏"
+  }
 }

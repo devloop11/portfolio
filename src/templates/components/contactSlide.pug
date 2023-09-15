@@ -1,15 +1,13 @@
 div.swiper-slide
-  include ../base/homeButton.pug
+  include ../base/sliderButtons.pug
   div.swiper-slide__content
     div.swiper-slide__contact
-      p.swiper-slide__contact__text=slideData.text
-      button.swiper-slide__contact__btn.button_primary=slideData.buttonText
-      div.company__links
-        each experience in sliderData.experience
-          include ../base/experienceLinks.pug
+      img.swiper-slide__contact__bg(src=slideData.bgImage)
+      div.swiper-slide__contact-info
+        p.swiper-slide__contact__text=slideData.text
+        a.swiper-slide__contact__btn.button_primary(href="mailto:"+slideData.mailTo)=slideData.buttonText
+          img.inline-svg(src="./assets/images/components/plus.svg")
+        div.swiper-slide__contact__links
+          each experience in sliderData.experience
+            include ../base/experienceLinks.pug
   p.swiper-slide__text=slideData.bottomText
-  div.swiper-slide__buttons
-    button.swiper-prev
-      img.inline-svg(src="./assets/images/index/components/chevron-left-circle.svg")
-    button.swiper-next
-      img.inline-svg(src="./assets/images/index/components/chevron-right-circle.svg")

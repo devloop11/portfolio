@@ -1,0 +1,176 @@
+{
+  "title": "wmg",
+  "text": "Led UI/UX design for a SaaS platform using Figma, shaping the Legato design system. Conducted usability tests and integrated data-driven research via FullStory. Managed projects with Atlassian, emphasizing Agile and Scrum methodologies. Notably improved design workflows, boosted user engagement, and aligned designs with key business objectives.",
+  "logo": "./assets/images/wmg/wmg-logo.svg",
+  "buttonText": "View more",
+  "slides": [
+    {
+      "type": "lottie",
+      "file": "./assets/images/cisco/Cisco_lottie_logo.json",
+      "alt": "slide",
+      "bottomText": "This showcase highlights our roadmap for the Security Design team's strategic development in FY24, meticulously designed to meet our business and organizational goals."
+    },
+    {
+      "type": "image",
+      "file-1x": "./assets/images/wmg/slider/1@1x.png",
+      "file-2x": "./assets/images/wmg/slider/1@2x.png",
+      "alt": "slide",
+      "bottomText": "At Warner Music Group (WMG), I spearheaded the design of the Storybox desktop app (end-to-end), WMG's real-time platform for artist updates and marketing collaboration. This case study highlights a few assets of the journey, hurdles, insights, and results of the Storybox endeavor."
+    },
+    {
+      "type": "image",
+      "file-1x": "./assets/images/wmg/slider/2@1x.png",
+      "file-2x": "./assets/images/wmg/slider/2@2x.png",
+      "alt": "slide",
+      "bottomText": "Storybox is WMG's central hub for marketing campaigns for artists like Cardi B and Coldplay. It's a collaboration tool where teams can find project details, timelines, team members, assets, and 'stories'—similar to social media posts with text, photos, or videos."
+    },
+    {
+      "type": "image",
+      "file-1x": "./assets/images/wmg/slider/3@1x.png",
+      "file-2x": "./assets/images/wmg/slider/3@2x.png",
+      "alt": "slide",
+      "bottomText": "As Warner Music Group's lead product designer, I created the Storybox app. This case study highlights its evolution, challenges, and how we enhanced user experience based on Joshua Seiden's outcome-focused approach."
+    },
+    {
+      "type": "image",
+      "file-1x": "./assets/images/wmg/slider/4@1x.png",
+      "file-2x": "./assets/images/wmg/slider/4@2x.png",
+      "alt": "slide",
+      "bottomText": "Addressing communication gaps, enhancing real-time project updates, improving Storybox's UX, introducing new tools and methods, navigating a complex design process, and championing change among stakeholders."
+    },
+    {
+      "type": "image",
+      "file-1x": "./assets/images/wmg/slider/5@1x.png",
+      "file-2x": "./assets/images/wmg/slider/5@2x.png",
+      "alt": "slide",
+      "bottomText": "When I began with Storybox, I conducted a UX audit based on the Nielsen Norman Group's model and surveyed the PM, PO, and stakeholders. We were at Level 2, indicating sporadic UX efforts. I identified the need for both qualitative and quantitative research tools to enhance our UX maturity."
+    },
+    {
+      "type": "image",
+      "file-1x": "./assets/images/wmg/slider/6@1x.png",
+      "file-2x": "./assets/images/wmg/slider/6@2x.png",
+      "alt": "slide",
+      "bottomText": "We introduced advanced tools and prioritized understanding user behavior. This became our success metric. Using data-driven design decisions, we enhanced outcomes and user experience."
+    },
+    {
+      "type": "image",
+      "file-1x": "./assets/images/wmg/slider/7@1x.png",
+      "file-2x": "./assets/images/wmg/slider/7@2x.png",
+      "alt": "slide",
+      "bottomText": "In crafting Storybox, I prioritized user goals, set clear outcomes, used data-driven success metrics, tested prototypes with real users, refined designs based on feedback, and continually adapted to ensure we met evolving user needs."
+    },
+    {
+      "type": "image",
+      "file-1x": "./assets/images/wmg/slider/8@1x.png",
+      "file-2x": "./assets/images/wmg/slider/8@2x.png",
+      "alt": "slide",
+      "bottomText": "I designed Storybox for users like Hanna, a local marketing manager wanting real-time campaign overviews; international specialists coordinating global campaigns; and regional managers seeking better global data sync, all to simplify communication and workflow."
+    },
+    {
+      "type": "image",
+      "file-1x": "./assets/images/wmg/slider/9@1x.png",
+      "file-2x": "./assets/images/wmg/slider/9@2x.png",
+      "alt": "slide",
+      "bottomText": "After looking at problems, deciding which are most common, and brainstorming, we used what we learned about our users to guide how we design the app and choose its features."
+    },
+    {
+      "type": "image",
+      "file-1x": "./assets/images/wmg/slider/10@1x.png",
+      "file-2x": "./assets/images/wmg/slider/10@2x.png",
+      "alt": "slide",
+      "bottomText": "After analyzing issues on the existing platform using heat maps and recordings, and identifying common problems, our user insights guided the design and feature selection for the app."
+    },
+    {
+      "type": "image",
+      "file-1x": "./assets/images/wmg/slider/11@1x.png",
+      "file-2x": "./assets/images/wmg/slider/11@2x.png",
+      "alt": "slide",
+      "bottomText": "Using personas, usability interviews, and both quantitative and qualitative data, I began shaping the app's information architecture with my team."
+    },
+    {
+      "type": "image",
+      "file-1x": "./assets/images/wmg/slider/12@1x.png",
+      "file-2x": "./assets/images/wmg/slider/12@2x.png",
+      "alt": "slide",
+      "bottomText": "Following our research, I developed wireframes and prototypes, which were then tested with users for further feedback."
+    },
+    {
+      "type": "image",
+      "file-1x": "./assets/images/wmg/slider/13@1x.png",
+      "file-2x": "./assets/images/wmg/slider/13@2x.png",
+      "alt": "slide",
+      "bottomText": "The prototyping phase was rapid and vital, with iterations based on interview feedback. This provided deeper insights for a user-centric outcome approach."
+    },
+    {
+      "type": "image",
+      "file-1x": "./assets/images/wmg/slider/14@1x.png",
+      "file-2x": "./assets/images/wmg/slider/14@2x.png",
+      "alt": "slide",
+      "bottomText": "After prototyping, we moved to high-fidelity designs. These detailed visuals captured the product's final appearance and interactions, serving as a blueprint for developers and ensuring an intuitive user experience."
+    },
+    {
+      "type": "image",
+      "file-1x": "./assets/images/wmg/slider/15@1x.png",
+      "file-2x": "./assets/images/wmg/slider/15@2x.png",
+      "alt": "slide",
+      "bottomText": "Baseline measurements ensure pixel-perfect designs, aiding engineers in front-end development and contributing to WMG's Legato design library."
+    },
+    {
+      "type": "image",
+      "file-1x": "./assets/images/wmg/slider/16@1x.png",
+      "file-2x": "./assets/images/wmg/slider/16@2x.png",
+      "alt": "slide",
+      "bottomText": "The central feature of Storybox was the 'stories', designed to replace email communication. These stories resembled social media posts, incorporating text, photos, or videos."
+    },
+    {
+      "type": "image",
+      "file-1x": "./assets/images/wmg/slider/17@1x.png",
+      "file-2x": "./assets/images/wmg/slider/17@2x.png",
+      "alt": "slide",
+      "bottomText": "Storybox serves as a global hub where artists collaborate with regional teams."
+    },
+    {
+      "type": "image",
+      "file-1x": "./assets/images/wmg/slider/18@1x.png",
+      "file-2x": "./assets/images/wmg/slider/18@2x.png",
+      "alt": "slide",
+      "bottomText": "For both desktop and mobile devices, we maintained a consistent approach from sketches to low and high-fidelity designs, followed by prototype testing. This consistency ensured an outcome-focused approach throughout."
+    },
+    {
+      "type": "image",
+      "file-1x": "./assets/images/wmg/slider/19@1x.png",
+      "file-2x": "./assets/images/wmg/slider/19@2x.png",
+      "alt": "slide",
+      "bottomText": "For both desktop and mobile devices, we maintained a consistent approach from sketches to low and high-fidelity designs, followed by prototype testing. This consistency ensured an outcome-focused approach throughout."
+    },
+    {
+      "type": "image",
+      "file-1x": "./assets/images/wmg/slider/20@1x.png",
+      "file-2x": "./assets/images/wmg/slider/20@2x.png",
+      "alt": "slide",
+      "bottomText": "I also contributed by creating custom Lottie animated file-1xs, offering a unique user experience when submitting stories to Storybox."
+    },
+    {
+      "type": "image",
+      "file-1x": "./assets/images/wmg/slider/21@1x.png",
+      "file-2x": "./assets/images/wmg/slider/21@2x.png",
+      "alt": "slide",
+      "bottomText": "Here's a list of tools and software I employed for the end-to-end creation of Storybox."
+    },
+    {
+      "type": "image",
+      "file-1x": "./assets/images/wmg/slider/22@1x.png",
+      "file-2x": "./assets/images/wmg/slider/22@2x.png",
+      "alt": "slide",
+      "bottomText": "We successfully launched Storybox, boosting internal communication and immediate campaign data access. Using an outcome-focused strategy, we set metrics such as employee time saved, reduced email usage, and user satisfaction, resulting in an estimated cost savings of 25.5%."
+    },
+    {
+      "type": "contact",
+      "bgImage": "./assets/images/components/end_slide_for_all_casestudies.png",
+      "text": "I truly enjoyed my time at WMG, surrounded by a high caliber of designers and research gurus. The team was fantastic and fun to work with. Interested in this or other projects I've been a part of? I'd be happy to chat.",
+      "buttonText": "Contact me",
+      "mailTo": "hello@edwardguillen.com",
+      "bottomText": "I recommend enhancing Storybox's search functionality, exploring tool integrations for efficiency, adding in-app analytics for real-time insights, and continuously updating based on user feedback."
+    }
+  ]
+}

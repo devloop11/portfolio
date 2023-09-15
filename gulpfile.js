@@ -64,8 +64,8 @@ gulp.task("styles", function () {
   return gulp
     .src("src/css/**/*.scss")
     .pipe(sass())
-    .pipe(autoprefixer())
-    .pipe(concat("all-styles.scss"))
+    .pipe(concat("all-styles.css"))
+    .pipe(autoprefixer({ cascade: true }))
     .pipe(cleanCSS())
     .pipe(rename("styles.min.css"))
     .pipe(gulp.dest("dist/css"))
@@ -92,7 +92,7 @@ gulp.task("pug", (done) => {
         data(() => ({
           [dataKey]: isIndex
             ? JSON.parse(jsonData)
-            : { ...JSON.parse(jsonData), experience: indexData.experience },
+            : { ...JSON.parse(jsonData), experience: indexData.experience, noResponsive: indexData.noResponsive },
         })),
       )
       .pipe(pug())
@@ -160,10 +160,8 @@ gulp.task("watch", function () {
 gulp.task("clean", function () {
   return gulp.src("./dist").pipe(clean({ force: true }));
 });
-
-if (process.env.NODE_ENV === "production") {
   gulp.task(
-    "default",
+    "prod",
     gulp.series(
       gulp.parallel(
         "fonts",
@@ -176,9 +174,8 @@ if (process.env.NODE_ENV === "production") {
       "inline-svg",
     ),
   );
-} else {
   gulp.task(
-    "default",
+    "dev",
     gulp.series(
       "clean",
       gulp.parallel(
@@ -193,4 +190,3 @@ if (process.env.NODE_ENV === "production") {
       "watch",
     ),
   );
-}

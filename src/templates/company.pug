@@ -4,13 +4,17 @@ section.company
       div.company__main-info
         include base/homeButton.pug
         div.company__logo
-          img.inline-svg(src=sliderData.logo)
+          - const isLottie = sliderData.logo.split('/')[sliderData.logo.split('/').length - 1].includes('.json');
+          if isLottie
+            lottie-player.company__logo-lottie(autoplay speed="0.4" src=sliderData.logo style="width: 220px; height: 100px")
+          else
+            img.inline-svg.company__logo-image(src=sliderData.logo)
         div.company__text
           p=sliderData.text
         button.company__button
           span.company__button__text
             span.company__button__text-inner=sliderData.buttonText
-              img.company__button__img.inline-svg(src="./assets/images/index/components/plus.svg")
+              img.company__button__img.inline-svg(src="./assets/images/components/plus.svg")
       div.company__links
         each experience in sliderData.experience
           include base/experienceLinks.pug

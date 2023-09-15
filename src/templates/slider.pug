@@ -7,6 +7,8 @@ div.swiper-container
         include components/videoSlide.pug
       if slideData.type=='contact'
         include components/contactSlide.pug
-  div.slider__buttomText
+      if slideData.type=='lottie'
+        include components/lottieSlide.pug
+  div.slider__bottomText
     p='Press spacebar / arrows'
-    img.inline-svg(src="./assets/images/index/components/keyboard.svg")
+    img.inline-svg(src="./assets/images/components/keyboard.svg")

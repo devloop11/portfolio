@@ -2,14 +2,33 @@ doctype html
 html(lang="en")
   head
     meta(charset="UTF-8")
-    meta(name="viewport", content="width=device-width, initial-scale=1.0")
-    title Ed's Portfolio
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    meta(name="description" content="I'm passionate about designing and solving users' problems, helping them achieve their goals with ease while creating an enjoyable experience.")
+    meta(content="Edward Guillen  - Product Designer" property="og:title")
+    meta(content="I'm passionate about designing and solving users' problems, helping them achieve their goals with ease while creating an enjoyable experience." property="og:description")
+    meta(property="og:locale" content="en_US")
+    meta(property="og:type" content="website")
+    meta(property="og:title" content="Edward Guillén | Product Designer")
+    meta(property="og:description" content="I'm passionate about designing and solving users' problems, helping them achieve their goals with ease while creating an enjoyable experience.")
+    meta(property="og:url" content="https://edwardguillen.com/")
+    meta(property="og:site_name" content="Edward Guillen")
+    title Edward Guillen | Product Designer
+    link(href="https://edwardguillen.com/" rel="canonical")
     link(rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css")
-    link(rel="stylesheet", href="css/styles.min.css")
+    link(rel="stylesheet" href="css/styles.min.css")
     script(src="https://unpkg.com/@barba/core")
     script(src="https://unpkg.com/gsap@latest/dist/gsap.min.js")
     script(src="https://unpkg.com/@lottiefiles/lottie-player@0.4.0/dist/lottie-player.js")
     script(src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js")
+    script.
+      (function(h,o,t,j,a,r){
+       h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+       h._hjSettings={hjid:2611614,hjsv:6};
+       a=o.getElementsByTagName('head')[0];
+       r=o.createElement('script');r.async=1;
+       r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+       a.appendChild(r);
+      })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');  
   body(data-barba="wrapper")
     - const namespace = indexData? 'home' : sliderData.title
     main.main(data-barba="container" data-barba-namespace=namespace)
@@ -17,4 +36,11 @@ html(lang="en")
         include home.pug
       else if sliderData
         include company.pug
+    include noResponsive.pug   
+    script(async src="https://www.googletagmanager.com/gtag/js?id=G-R0BJ2MW99D")
+    script.
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-R0BJ2MW99D');
     script(src="./js/main.min.js")

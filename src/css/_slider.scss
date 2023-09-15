@@ -5,30 +5,30 @@
   width: 100%;
   height: 100%;
 }
+.swiper-wrapper {
+}
 .swiper-slide {
   display: flex;
   width: 840px;
   position: relative;
   flex-direction: column;
-  justify-content: center;
+  // justify-content:flex-start;
+  transform: translateY(20%) !important;
   align-items: center;
   text-align: center;
   font-size: 18px;
   background: transparent;
   transition: all 0.7s;
   opacity: 0.5;
-
-  .home-button {
-    opacity: 0;
-    position: absolute;
-    top: 13%;
-    left: 0;
+  &__lottie-helper-path {
+    display: none;
   }
   &__content {
     width: 100%;
     height: 520px;
-    background-color: black;
-    border-radius: 20px !important;
+    // background-color: black;
+    border-radius: 20px;
+    box-shadow: 0px 20px 50px 0px rgba(18, 17, 39, 0.08);
     iframe {
       width: 100%;
       border-radius: 20px;
@@ -39,6 +39,10 @@
       height: 100%;
       object-fit: contain;
     }
+  }
+  &__lottie {
+    max-width: 100%;
+    max-height: 100%;
   }
   img {
     display: block;
@@ -54,29 +58,59 @@
     color: #344054;
   }
   &__contact {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    position: relative;
     width: 100%;
-    max-width: 400px;
     height: 100%;
-    margin: 0 auto;
+    &__bg {
+      position: absolute;
+      z-index: -1;
+      width: 100%;
+      height: 100%;
+    }
+    &-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+      max-width: 400px;
+      height: 100%;
+      margin: 0 auto;
+    }
     &__text {
       margin: 0;
-      color:#fff;
+      color: #fff;
       font-weight: 500;
       font-size: 16px;
       margin-bottom: 20px;
       margin-top: 30px;
+      min-height: 20px;
     }
-    button{
-      max-width: fit-content;
+    &__btn {
+      position: relative;
+      width: fit-content;
+      margin: 0 auto;
       margin-bottom: 45px;
-      align-self: center;
+      padding-left: 30px;
+      transition: all 0.3s;
+      &:hover {
+        background-color: #004eeb;
+      }
+      svg {
+        left: 10px;
+        position: absolute;
+      }
     }
-    .company__links {
+    &__links {
+      display: flex;
+      justify-content: space-between;
+      .page-link {
+        svg {
+          path {
+            transition: all 0.3s;
+          }
+        }
+      }
       .page-link:hover {
-        transition: fill 0.3s;
         svg {
           path {
             fill: #fff;
@@ -88,11 +122,24 @@
       }
     }
   }
-  &__buttons {
-    position: absolute;
-    top: 13%;
-    right: 0;
+  &__controls {
     display: flex;
+    width: 100%;
+    justify-content: space-between;
+    position: absolute;
+    top: -7%;
+    .home-button {
+      opacity: 0;
+      position: absolute;
+      top: 15%;
+      left: 0;
+    }
+  }
+  &__buttons {
+    display: flex;
+    position: absolute;
+    top: 15%;
+    right: 0;
     opacity: 0;
     button {
       cursor: pointer;
@@ -121,7 +168,7 @@
 .swiper-button-prev {
   position: absolute;
 }
-.slider__buttomText {
+.slider__bottomText {
   display: flex;
   align-items: center;
   position: absolute;
