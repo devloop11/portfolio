@@ -158,8 +158,15 @@ gulp.task("watch", function () {
 });
 
 gulp.task("clean", function () {
-  return gulp.src("./dist").pipe(clean({ force: true }));
+  if (fs.existsSync('./dist')) {
+    return gulp.src("./dist", { read: false, allowEmpty: true })
+      .pipe(clean({ force: true }));
+  } else {
+    console.log('The "dist" directory does not exist. Nothing to clean.');
+    return Promise.resolve();
+  }
 });
+
   gulp.task(
     "prod",
     gulp.series(

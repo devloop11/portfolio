@@ -8,6 +8,7 @@ export function sliderHandler() {
         speed: 1000,
         height: 800,
         centeredSlides: true,
+        centered: true,
         keyboard: {
             enabled: true,
         },
