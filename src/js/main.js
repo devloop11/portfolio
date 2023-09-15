@@ -72,7 +72,7 @@ function sliderPageTransitions(timeline = gsap.timeline(), delay) {
         opacity: 0,
         ease: "power4.out",
         stagger: 0.3,
-        clearProps: true
+        clearProps: 'all'
     }, 0)
     timeline.from('.company__main-info .home-button svg', {
         duration: 2,

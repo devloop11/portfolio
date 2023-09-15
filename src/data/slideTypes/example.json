@@ -1,0 +1,29 @@
+[
+  {
+    "type": "image",
+    "file-1x": "./assets/images/alcolyze/slider/14@1x.png",
+    "file-2x": "./assets/images/alcolyze/slider/14@2x.png",
+    "alt": "slide",
+    "bottomText": "If an offender failed a test, a re-test was scheduled 15 minutes later. Non-compliance led to multiple calls and disciplinary actions. They'd also get alerts to replace the IoT device as its BAC-generating cell wears out over time."
+  },
+  {
+    "type": "video",
+    "file": "./assets/images/alcolyze/slider/14@1x.png",
+    "alt": "slide",
+    "bottomText": "If an offender failed a test, a re-test was scheduled 15 minutes later. Non-compliance led to multiple calls and disciplinary actions. They'd also get alerts to replace the IoT device as its BAC-generating cell wears out over time."
+  },
+  {
+    "type": "contact",
+    "bgImage": "./assets/images/components/end_slide_for_all_casestudies.png",
+    "text": "Navigating the end-to-end process of the Alcolyze project and focusing on our outcome-based approach was truly rewarding. If you have any questions or want more insights, please feel free to reach out!",
+    "buttonText": "Contact me",
+    "mailTo": "hello@edwardguillen.com",
+    "bottomText": "The Alcolyze system effectively increased user compliance, ensured data privacy through blockchain, reduced non-compliance with swift re-tests, maintained IoT device functionality with timely alerts, and received high praise from both probation officers and offenders for its user-friendly design and transparency."
+  },
+  {
+    "type": "lottie",
+    "file": "./assets/images/cisco/Cisco_lottie_logo.json",
+    "alt": "slide",
+    "bottomText": "This showcase highlights our roadmap for the Security Design team's strategic development in FY24, meticulously designed to meet our business and organizational goals."
+  }
+]

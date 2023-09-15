@@ -5,12 +5,6 @@
   "buttonText": "View more",
   "slides": [
     {
-      "type": "lottie",
-      "file": "./assets/images/cisco/Cisco_lottie_logo.json",
-      "alt": "slide",
-      "bottomText": "This showcase highlights our roadmap for the Security Design team's strategic development in FY24, meticulously designed to meet our business and organizational goals."
-    },
-    {
       "type": "image",
       "file-1x": "./assets/images/wmg/slider/1@1x.png",
       "file-2x": "./assets/images/wmg/slider/1@2x.png",
