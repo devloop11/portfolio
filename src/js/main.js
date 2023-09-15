@@ -57,14 +57,12 @@ function sliderPageTransitions(timeline = gsap.timeline(), delay) {
         y: '-100%',
         opacity: 0,
         ease: "power1.in",
-        clearProps: true
     }, 0)
     timeline.from('.company__button', {
         duration: 2,
         x: '100%',
         opacity: 0,
         ease: "power1.in",
-        clearProps: true
     }, 0)
     timeline.from(sliderPageLinks, {
         duration: 2,
@@ -72,14 +70,12 @@ function sliderPageTransitions(timeline = gsap.timeline(), delay) {
         opacity: 0,
         ease: "power4.out",
         stagger: 0.3,
-        clearProps: true
     }, 0)
     timeline.from('.company__main-info .home-button svg', {
         duration: 2,
         y: '-100%',
         opacity: 0,
         ease: "power1.in",
-        clearProps: true
     }, 0)
     sliderPageLinks.forEach(link => {
         link.addEventListener('mouseenter', () => {
